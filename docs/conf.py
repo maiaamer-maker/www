@@ -105,9 +105,12 @@ extensions = [
     '_ext.build_perf',
     # Header menu and banner photos for the community pages.
     '_ext.community',
+    # Fixes '&' in the URLs of Markdown links.
+    '_ext.myst_links',
 ]
 
 myst_heading_anchors = 4
+myst_enable_extensions = ['deflist']
 # Treat markdown links as plain URLs. Without this, myst tries to resolve
 # relative links like `../foo/#anchor` as cross-references and mangles them.
 myst_all_links_external = True
