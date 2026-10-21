@@ -1,9 +1,10 @@
-:banner: _static/conf/images/photos/group-2026-55264515839.jpg
+---
+banner: _static/conf/images/photos/group-2026-55264515839.jpg
+---
 
-Documentarians
-==============
+# Documentarians
 
-When we :doc:`created </origin-story>` Write the Docs,
+When we [created](/origin-story/) Write the Docs,
 we believed there was a missing term for someone who cares about documentation.
 It shouldn't be a job title,
 but an independent identity.
