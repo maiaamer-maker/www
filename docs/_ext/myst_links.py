@@ -21,5 +21,6 @@ def unescape_link_urls(app, doctree):
 
 
 def setup(app):
-    app.connect('doctree-read', unescape_link_urls)
+    # Before ablog, which copies each post's excerpt when it reads it.
+    app.connect('doctree-read', unescape_link_urls, priority=400)
     return {'parallel_read_safe': True, 'parallel_write_safe': True}
