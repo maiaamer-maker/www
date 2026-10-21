@@ -1,45 +1,39 @@
-:banner: _static/conf/images/photos/reception-crowd-54498815794.jpg
+---
+banner: _static/conf/images/photos/reception-crowd-54498815794.jpg
+---
 
-Slack
-=====
+# Slack
 
 Our Slack community has over {{ slack_members }} people hanging out and chatting about documentation.
 It's the best way to connect with other documentarians,
 and to stay in touch with folks you've met at our conferences and meetups.
 
-.. button-link:: {{ slack_form }}
+```{button-link} {{ slack_form }}
+Join our Slack network
+```
 
-   Join our Slack network
-
-.. rst-class:: button-note
-
-Due to an increase in spammers, we now have a short `signup form`_ that you must fill out to join our Slack network.
+<p class="button-note">Due to an increase in spammers, we now have a short <a href="{{ slack_form }}">signup form</a> that you must fill out to join our Slack network.</p>
 
 Our most active Slack channels are listed below.
 This should help you get connected to people with similar interests.
 Please also read the Slack guidelines carefully, and remember that our
-:doc:`/code-of-conduct` also applies to our Slack.
+[Code of Conduct](/code-of-conduct/) also applies to our Slack.
 
-.. _signup form: {{ slack_form }}
-.. _this page: https://github.com/writethedocs/www/blob/main/docs/slack.rst
-.. _disable all animations: https://slack.com/help/articles/228023907-Manage-animated-images-and-emoji
+```{contents}
+:local:
+:depth: 1
+:backlinks: none
+:class: topic-nav
+```
 
-.. contents::
-   :local:
-   :depth: 1
-   :backlinks: none
-   :class: topic-nav
-
-Channel guide
--------------
+## Channel guide
 
 The Write the Docs Slack has *lots* of channels.
 Some channels are widely joined, while others are more specialized.
 Here's an overview of how we use channels on Slack.
-Feel free to send a Pull Request to update `this page`_, if you want to include other channels you enjoy.
+Feel free to send a Pull Request to update [this page](https://github.com/writethedocs/www/blob/main/docs/slack.md), if you want to include other channels you enjoy.
 
-Default channels
-~~~~~~~~~~~~~~~~
+### Default channels
 
 Everyone who joins the Slack will be added to these channels:
 
@@ -47,12 +41,11 @@ Everyone who joins the Slack will be added to these channels:
 * **#announcements** - Community-wide announcements from the Write the Docs organizers.
 * **#general** - The main channel for documentation-related conversation and questions.
 * **#job-posts-only** - Posting jobs. (Talk about your job search in **#work-wanted** and **#career-advice**.)
-* **#wtd-conferences** - Questions and discussion for :doc:`/conf/index`. (Talk about other conferences in **#community-events**.)
-* **#meetups** - Questions and discussion for Write the Docs :doc:`/meetups/index`. (Talk about other meetups in **#community-events**.)
+* **#wtd-conferences** - Questions and discussion for [Conferences](/conf/). (Talk about other conferences in **#community-events**.)
+* **#meetups** - Questions and discussion for Write the Docs [Local and virtual community groups](/meetups/). (Talk about other meetups in **#community-events**.)
 * **#watercooler** - Off-topic chat. Get to know folks' other interests that aren't around documentation :)
 
-Other useful topical channels
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Other useful topical channels
 
 * **#career-advice** - Should you take that job? Am I being paid enough? Ask here!
 * **#learn-tech-writing** - Are you considering a job in documentation, or want to tune up your skills? Chat with experts and other learners here, and consider reading a tech writing-related book with the WTD book club!
@@ -62,27 +55,24 @@ Other useful topical channels
 * **#flare** - Talk about the Flare documentation toolkit.
 * **#confluence** - Talk about everyone's favorite Wiki.
 * **#community-showcase** - Announce your projects here! Blog posts, docs, code, products—whatever you make that you're excited to share!
-* **#community-help-wanted** - Got an open-source project that needs docs contributors? Looking for open-source communities who will mentor you while you contribute to their docs? This channel is for you! Only for volunteer/unpaid work with open-source projects; companies and paid job postings should continue to use #job-posts-only. 
+* **#community-help-wanted** - Got an open-source project that needs docs contributors? Looking for open-source communities who will mentor you while you contribute to their docs? This channel is for you! Only for volunteer/unpaid work with open-source projects; companies and paid job postings should continue to use #job-posts-only.
 * **#wtd-weps** - Ask questions about the Write the Docs Enhancement Proposal (WEP) system and brainstorm on pre-proposal ideas to help improve our community processes and governance.
 
-Channels that serve specific communities & their allies
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Channels that serve specific communities & their allies
 
 Allies are welcome as guests in these channels. Please be considerate.
 
-* **#bipoc** - Social and discussion space for Write the Docs' :doc:`/bipoc` community.
+* **#bipoc** - Social and discussion space for Write the Docs' [BIPOC documentarians](/bipoc/) community.
 * **#lgbtq** - Social and discussion space for LGBTQ+ people in the WTD community.
 
-Location-based channels
-~~~~~~~~~~~~~~~~~~~~~~~
+### Location-based channels
 
 We have too many location-based channels to list.
 Chances are we have a large group of folks in your area,
 so join up and chat with them.
 They're a great way to get in touch with your local meetup organizer and community.
 
-Creating channels
-~~~~~~~~~~~~~~~~~
+### Creating channels
 
 If you didn't see a channel that matches your interests, make sure to browse the complete channel list in Slack.
 
@@ -90,90 +80,88 @@ If you still can't find a suitable channel, you can propose a new channel.
 We use this process to help channels succeed at creating discussion and introducing documentarians to others who share their interests.
 To propose a channel:
 
-#. Find two other people to cosponsor your channel idea.
+1. Find two other people to cosponsor your channel idea.
    Ask in related channels to find people who share your interest.
-#. Together, come up with a channel name and write a channel description.
-#. Post in **#meta** requesting a channel.
+1. Together, come up with a channel name and write a channel description.
+1. Post in **#meta** requesting a channel.
    Be sure to share your proposed channel name, description, and to tag your cosponsors.
-#. Start thinking about how to seed the new channel with discussion, with an open-ended question, a link to discuss, or a hot take.
+1. Start thinking about how to seed the new channel with discussion, with an open-ended question, a link to discuss, or a hot take.
 
 The Write the Docs moderation team will review your proposal to make sure the new channel will remain active and won't duplicate or create confusion with another channel.
 Whenever possible, the moderators work with channel sponsors on improvements to the proposal.
 
 If your proposal is approved, then you and your cosponsors must:
 
-#. Seed discussion in the new channel.
+1. Seed discussion in the new channel.
    A starter discussion helps others learn whether the channel is relevant to them and increases the number of documentarians who join the channel.
-#. Make an announcement in **#general** and channels related to the new channel's topic.
+1. Make an announcement in **#general** and channels related to the new channel's topic.
    For example, if there's a new channel for underwater basket weaving, then make an announcement like "Join us in #underwater-basket-weaving to discuss techniques, materials, and what to store in all these baskets."
 
-Autoresponders
-~~~~~~~~~~~~~~
+### Autoresponders
 
 We have some helpful Slackbot responses that you can summon in any channel, at any time.
 
-* ``?autoresponders`` / ``?slackbot``
+* `?autoresponders` / `?slackbot`
 
   - Get a list of these Slackbot response triggers.
 
-* ``?invite`` / ``?join``
+* `?invite` / `?join`
 
   - Get a link you can send to a friend to invite them to the Write the Docs Slack. (You can also invite people directly from Slack by clicking **Write the Docs** > **Invite people to Write the Docs**.)
 
-* ``?conferences`` / ``?conference``
+* `?conferences` / `?conference`
 
-  - Get information on past and future Write the Docs :doc:`/conf/index`.
+  - Get information on past and future Write the Docs [Conferences](/conf/).
 
-* ``?jobseeking`` / ``?hiring`` / ``?interview`` / ``?interviewing``
+* `?jobseeking` / `?hiring` / `?interview` / `?interviewing`
 
-  - Get information on both hiring and getting hired, including a link to the :doc:`/hiring-guide/index`.
+  - Get information on both hiring and getting hired, including a link to the [Guide to hiring and getting hired](/hiring-guide/).
 
-* ``?getstarted`` / ``?resources`` / ``?learn``
+* `?getstarted` / `?resources` / `?learn`
 
-  - We're always excited to help new people into working on documentation! This is for you if you want some resources on how to get started, including a link to some of our favorite :doc:`/about/learning-resources`.
+  - We're always excited to help new people into working on documentation! This is for you if you want some resources on how to get started, including a link to some of our favorite [Learning resources](/about/learning-resources/).
 
-* ``?tools`` / ``?doctools`` / ``?tooloptions`` / ``?chooseatool``
+* `?tools` / `?doctools` / `?tooloptions` / `?chooseatool`
 
   - Choosing documentation tools can be tough! This provides a list of links you might find helpful when you're considering a new one.
 
-* ``?coc``
+* `?coc`
 
-  - "COC" is short for the :doc:`/code-of-conduct`. This is an easy way to get a link to it, and to summon a member of the :ref:`moderation team <moderation-team>` if you need one.
+  - "COC" is short for the [Code of Conduct](/code-of-conduct/). This is an easy way to get a link to it, and to summon a member of the [moderation team](/team/#moderation-team) if you need one.
 
-* ``?mods`` / ``?moderators`` / ``?modsquad``
+* `?mods` / `?moderators` / `?modsquad`
 
-  - Returns the members of the :ref:`moderation team <moderation-team>` if you need to ping someone directly for help.
+  - Returns the members of the [moderation team](/team/#moderation-team) if you need to ping someone directly for help.
 
-* ``?history``
+* `?history`
 
   - Returns the answer for one of our most frequently asked questions: why you can't access the full chat history in the Write the Docs Slack.
 
-* ``?discord``
+* `?discord`
 
   - Returns the answer for one of our most common follow-up questions: why we don't move to a different tool like Discord.
 
-Guidelines
-----------
+## Guidelines
 
 Our goal with Write the Docs is to be **the most welcoming community on the internet**.
 People who are new to our community in particular should be assisted and welcomed.
 
-Our :doc:`/code-of-conduct` applies to all spaces associated with Write the Docs, which includes our Slack.
+Our [Code of Conduct](/code-of-conduct/) applies to all spaces associated with Write the Docs, which includes our Slack.
 In addition, we have several Slack-specific guidelines:
 
-.. note::
-    Our Slack includes animated emoji, and other animations are sometimes posted.
-    If you think these may be unpleasant for you, you can `disable all animations`_
-    in your Slack client.
+```{note}
+Our Slack includes animated emoji, and other animations are sometimes posted.
+If you think these may be unpleasant for you, you can [disable all animations](https://slack.com/help/articles/228023907-Manage-animated-images-and-emoji)
+in your Slack client.
+```
 
-Social tips
-~~~~~~~~~~~
+### Social tips
 
 To have good experiences on Slack, create the conversations you want to be a part of.
 You can help us do this by following these tips:
 
 - **Say hi.**
-  Don't forget to introduce yourself in ``#intros``.
+  Don't forget to introduce yourself in `#intros`.
   If you've been away a while, reintroduce yourself.
   The world is a better place with a flood of hellos.
 - **Use inclusive language.**
@@ -190,12 +178,11 @@ You can help us do this by following these tips:
   You know that you're joking, but some people might take you seriously.
 - **If you don't have anything nice to say, don't say anything at all.**
 
-We also recommend reading `Microaggressions: Making space for everybody <https://www.metafilter.com/microaggressions.mefi>`_, which goes over how to avoid small slights and hurtful behaviors, especially against members of marginalized groups.
+We also recommend reading [Microaggressions: Making space for everybody](https://www.metafilter.com/microaggressions.mefi), which goes over how to avoid small slights and hurtful behaviors, especially against members of marginalized groups.
 
-Online community issues
-~~~~~~~~~~~~~~~~~~~~~~~
+### Online community issues
 
-There is a specific set of behaviors that is prevalent in online communities that we'd like to address, to make sure our community doesn't fall into these traps. 
+There is a specific set of behaviors that is prevalent in online communities that we'd like to address, to make sure our community doesn't fall into these traps.
 Please be mindful with the following behaviors:
 
 - **No shaming.**
@@ -212,10 +199,9 @@ Please be mindful with the following behaviors:
 - **Honor the community's trust and confidence.**
   In the Write the Docs Slack, we are privileged to be able to discuss complex or sensitive situations with other docs practitioners.
   But those discussions can only happen in an environment of discretion and trust.
-  The `Chatham House Rule <https://www.chathamhouse.org/about-us/chatham-house-rule>`_ applies: you're welcome to use the information shared, but never reveal names, job titles, employers, or other identifying information about other participants outside of Slack, unless you've received their explicit permission to do so.
+  The [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule) applies: you're welcome to use the information shared, but never reveal names, job titles, employers, or other identifying information about other participants outside of Slack, unless you've received their explicit permission to do so.
 
-Posting rules
-~~~~~~~~~~~~~
+### Posting rules
 
 The Write the Docs Slack hosts many documentarians and has few moderators.
 We expect everyone to follow these "rules of the road" at all times, to keep the conversation going smoothly and to reduce annoyances for everyone.
@@ -236,10 +222,9 @@ We expect everyone to follow these "rules of the road" at all times, to keep the
   Write the Docs is a big community: topics that seem safe to you could make others feel uncomfortable or unwelcome.
   Help others choose which conversations they opt into by signposting sensitive or traumatic topics and confining them to threads.
 
-Posts not meeting these criteria may result in :ref:`moderation action <moderation-action>`, such as a warning or deletion.
+Posts not meeting these criteria may result in [moderation action](#moderation-action), such as a warning or deletion.
 
-Self-promotion, surveys, and sales
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Self-promotion, surveys, and sales
 
 You're welcome to share, link to, and mention your own work, including blog posts, social media, events, and paid products or services.
 That said, posts where you stand to benefit from others' money, personal information, attention, or labor come with higher expectations.
@@ -264,10 +249,9 @@ In addition to the guidance that applies to all participants, we expect self-pro
   If you're asked to stop, then stop.
 - **Treat the community like friends, not customers.**
   The community tends to ignore or spam report posts that look like sales pitches.
-  Avoid calls to action — `attempts to prompt an immediate response or sale <https://en.wikipedia.org/wiki/Call_to_action_(marketing)>`_ — such as requests to "buy", "subscribe", "retweet", or "share" (among others).
+  Avoid calls to action — [attempts to prompt an immediate response or sale](https://en.wikipedia.org/wiki/Call_to_action_(marketing)) — such as requests to "buy", "subscribe", "retweet", or "share" (among others).
 
-Common self-promotion situations
-++++++++++++++++++++++++++++++++
+#### Common self-promotion situations
 
 Here are some examples of common self-promotion situations and how to self-promote responsibly (and irresponsibly):
 
@@ -295,35 +279,30 @@ Here are some examples of common self-promotion situations and how to self-promo
 
   **Don't** use DMs, alt-accounts, clever interpretations of the rules/guidance, or other methods to ignore or get around the moderator feedback.
 
-Suggested channels for self-promotion
-+++++++++++++++++++++++++++++++++++++
+#### Suggested channels for self-promotion
 
 Here are some channels specifically for wholesome self-promotion:
 
 - **#job-posts-only** is the best place to post paid jobs.
 - **#freelance** is the best place to post freelance projects.
-- **#community-events** (formerly known as `#calls-for-papers`) is a good place to announce non-Write the Docs events.
+- **#community-events** (formerly known as *#calls-for-papers*) is a good place to announce non-Write the Docs events.
 - **#community-help-wanted** is a good place to share surveys, calls for research interview subjects, and calls for participation on open-source projects.
 - **#community-showcase** is a space for responsible self-promotion.
 
-Posts in those channels not meeting the posting rules may result in :ref:`moderation action <moderation-action>`, such as a warning or deletion.
+Posts in those channels not meeting the posting rules may result in [moderation action](#moderation-action), such as a warning or deletion.
 
-Reporting issues
-~~~~~~~~~~~~~~~~
+### Reporting issues
 
-If you see a message in a public channel that needs moderator attention, you can react to it with the ``:attn-mods:`` or ``:spam:`` reacji.
-Note that this is a public action, so only take it if you're okay with the poster seeing you have done this. 
+If you see a message in a public channel that needs moderator attention, you can react to it with the `:attn-mods:` or `:spam:` reacji.
+Note that this is a public action, so only take it if you're okay with the poster seeing you have done this.
 
 If you see people not following the behavior guidelines you can:
 
 - Ask the participant to change their behavior by referring to this guide and explaining why what they said might have been hurtful.
-- Ask the :ref:`moderation team <moderation-team>` (in the **#meta** channel or by DM) to address the situation.
+- Ask the [moderation team](/team/#moderation-team) (in the **#meta** channel or by DM) to address the situation.
   Include a link or screenshot of the conversation, if possible.
 
-.. _moderation-action:
-
-Moderation action
-~~~~~~~~~~~~~~~~~
+### Moderation action
 
 The role of the moderation team is to keep healthy conversation going and set expectations by example.
 When that fails, we have a few tools to help set things right: private and public cautions, message deletion, and temporary or permanent bans.
@@ -338,38 +317,34 @@ If you get a message from us, it might be about your behavior, but it's not abou
 If something goes wrong, we'll tell you about it and try to help you avoid the problem in the future.
 Help us help the community.
 
-Credit
-~~~~~~
+### Credit
 
-This concept is inspired by the `Recurse Center's Social Rules <https://www.recurse.com/manual#sub-sec-social-rules>`_.
+This concept is inspired by the [Recurse Center's Social Rules](https://www.recurse.com/manual#sub-sec-social-rules).
 Thanks for the inspiration!
 
-Slack history
--------------
+## Slack history
 
 We don't pay for our Slack, which means that the community only has access to messages from the last 90 days.
 That doesn't mean everything gets lost, though.
 Here are a few ways to preserve what you've learned for yourself and others:
 
-- React to a message with ``:suggest-for-newsletter:`` emoji to nominate it for inclusion in our next monthly newsletter.
-  Read the newsletter archives at :doc:`/newsletter` and subscribe if you want them directly in your inbox!
-- Contribute a summary to one of the Write the Docs site's :doc:`/about/learning-resources`.
-- Turn a discussion into a talk proposal for :doc:`an upcoming Write the Docs conference </conf/index>`.
-- `Save a message`__ privately in Slack.
-- Recap what you learned and share it on your own site or social media accounts. Don't forget to tag ``#writethedocs``!
+- React to a message with `:suggest-for-newsletter:` emoji to nominate it for inclusion in our next monthly newsletter.
+  Read the newsletter archives at [Newsletter and mailing lists](/newsletter/) and subscribe if you want them directly in your inbox!
+- Contribute a summary to one of the Write the Docs site's [Learning resources](/about/learning-resources/).
+- Turn a discussion into a talk proposal for [an upcoming Write the Docs conference](/conf/).
+- [Save a message](https://slack.com/intl/en-gb/help/articles/360042650274-Save-messages-and-files-) privately in Slack.
+- Recap what you learned and share it on your own site or social media accounts. Don't forget to tag `#writethedocs`!
 
-.. __: https://slack.com/intl/en-gb/help/articles/360042650274-Save-messages-and-files-
+```{admonition} Why we don't pay for Slack
+:class: note
 
-.. admonition:: Why we don't pay for Slack
-   :class: note
+The Write the Docs Slack community is free to access and we aim to keep it that way.
+A Slack subscription is prohibitively expensive—over $10,000 per month—for a community as large as ours.
+Even if we had such resources, upgrading Slack is not a priority
+and many people feel a freedom in knowing that their words will disappear shortly.
+```
 
-   The Write the Docs Slack community is free to access and we aim to keep it that way.
-   A Slack subscription is prohibitively expensive—over $10,000 per month—for a community as large as ours.
-   Even if we had such resources, upgrading Slack is not a priority
-   and many people feel a freedom in knowing that their words will disappear shortly.
-
-Other chat platforms (such as Discord)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Other chat platforms (such as Discord)
 
 Write the Docs does not have an official presence on Discord or other chat platforms.
 
