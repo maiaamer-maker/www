@@ -133,7 +133,7 @@ From 2027 on, the conference design lives in `_conference.scss`, and a year's fi
 
 Uses the `ablog` extension. News posts go in `docs/conf/<city>/<year>/news/` with `.. post::` directive and `:tags: <city>-<year>` for filtering via `.. postlist::` on conference index pages.
 
-The blog's posts come in three kinds, each listed in full in one place. Newsletter issues (`blog/newsletter-<month>-<year>`) are listed by year on the newsletter page (`community/newsletter.html`). Conference news is listed on each conference's news page, by its `<city>-<year>` tag. The rest, such as community board updates, are listed by year on the blog page (`docs/blog/index.rst`, template `community/blog.html`), which also shows the latest newsletter issues and the news of the upcoming conferences in `_data/community.yaml`.
+The blog's posts come in three kinds, each listed in full in one place. Newsletter issues (`blog/newsletter-<month>-<year>`) are listed by year on the newsletter page (`community/newsletter.html`). Conference news is listed on each conference's news page, by its `<city>-<year>` tag. The rest, such as community board updates, are listed by year on the blog page (`docs/blog/index.md`, template `community/blog.html`), which also shows the latest newsletter issues and the news of the upcoming conferences in `_data/community.yaml`.
 
 ### Read the Docs addons
 
@@ -146,6 +146,7 @@ The site is hosted on Read the Docs, which adds its addons to every page. The co
 ## Key Conventions
 
 - Content files support both `.rst` and `.md` (via myst-parser)
+- Write new pages in Markdown. Link to other pages by URL path (`[Slack](/slack/)`): `myst_all_links_external` is on, so `{doc}` targets and `.md` paths aren't resolved. Use MyST's `deflist` for definition lists and `{eval-rst}` only for what Markdown can't express, such as the `meetup-listing` directive
 - Conference pages use `:orphan:` directive (not in a toctree)
 - Feature flags in config YAML control what sections display (e.g., `flagtickets`, `flagcfp`, `flaghasschedule`)
 - Conference talk videos are hosted on the [Write the Docs YouTube channel](https://www.youtube.com/c/WritetheDocs)
