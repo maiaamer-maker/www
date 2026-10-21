@@ -1,10 +1,12 @@
-:orphan:
+---
+orphan: true
+---
 
-Salary Survey: September 2019
-=============================
+# Salary Survey: September 2019
 
-.. note::
-    The survey results are in :doc:`salary-survey/2019`
+```{note}
+The survey results are in [Write the Docs Salary Survey 2019 Results](/surveys/salary-survey/2019/)
+```
 
 We're excited to launch our first ever survey,
 a Salary Survey.

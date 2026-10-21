@@ -1,13 +1,15 @@
-:orphan:
+---
+orphan: true
+---
 
-Salary Survey: September 2020
-=============================
+# Salary Survey: September 2020
 
-.. note::
-    The survey results are in :doc:`salary-survey/2020`
+```{note}
+The survey results are in [Write the Docs Salary Survey 2020 Results](/surveys/salary-survey/2020/)
+```
 
 We were amazed by the response to our Salary Survey last year.
-We are excited to launch our updated `2020 Salary Survey <https://2020-salary-survey.writethedocs.org/>`_.
+We are excited to launch our updated [2020 Salary Survey](https://2020-salary-survey.writethedocs.org/).
 
 Our goal is to help people understand the pay scales and benefits in the software industry around documentation.
 This will help people get a better understanding of what an appropriate salary is,
